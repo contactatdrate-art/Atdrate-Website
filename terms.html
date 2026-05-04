@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Terms of Use · ATDRATE</title>
+  <meta name="description" content="Terms governing the use of the Atdrate website and content." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=5" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="brand" aria-label="ATDRATE — home"><img src="Atdrate_blacklogo.png" alt="ATDRATE" /></a>
+        <ul class="nav-links">
+          <li><a href="index.html#approach">How We Help</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="insights.html">Insights</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="apply.html" class="btn btn-primary hide-sm">Apply Now</a>
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <p class="eyebrow">Legal</p>
+      <h1>Terms of Use</h1>
+      <p class="lead">Last updated: January 2026.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container" style="max-width: 760px;">
+      <h2>Acceptance</h2>
+      <p>By accessing this website you agree to these terms. If you do not agree, please do not use the site.</p>
+
+      <h2>Use of content</h2>
+      <p>All written material, frameworks, and case studies published on this site are the intellectual property of Atdrate Consultancy. You may share short excerpts with attribution; reproduction in full requires written permission.</p>
+
+      <h2>No advice</h2>
+      <p>The content on this site is for general informational purposes. It does not constitute financial, legal, tax, or business advice. Engagements with Atdrate are governed by a separate signed agreement.</p>
+
+      <h2>Applications</h2>
+      <p>Submitting the application form does not create a client relationship or any obligation on either party. We review applications selectively and respond only when there is a clear fit.</p>
+
+      <h2>Liability</h2>
+      <p>Atdrate is not liable for any decision made on the basis of content available on this website outside of a contracted engagement.</p>
+
+      <h2>Governing law</h2>
+      <p>These terms are governed by the laws of India and disputes will be subject to the jurisdiction of the courts of Mumbai.</p>
+
+      <h2>Contact</h2>
+      <p>For questions about these terms, email <a href="mailto:hello@atdrate.com">hello@atdrate.com</a>.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="ATDRATE — home"><img src="Atdrate_blacklogo.png" alt="ATDRATE" /></a>
+          <p>Atdrate — Business Growth Consultancy · Mumbai, India.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="apply.html">Apply</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span data-year>2026</span> ATDRATE consultancy. All rights reserved.</div>
+    </div>
+  </footer>
+  <!-- Welcome modal: shown 2 seconds after first arrival per session -->
+  <div class="welcome-modal" id="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcome-title" aria-hidden="true">
+    <div class="welcome-modal__backdrop" data-close></div>
+    <div class="welcome-modal__card" role="document">
+      <button type="button" class="welcome-modal__close" aria-label="Close" data-close>&times;</button>
+      <p class="eyebrow welcome-modal__eyebrow">Welcome</p>
+      <h2 id="welcome-title">Let's understand who you are.</h2>
+      <p class="welcome-modal__lead">Atdrate is a business growth consultancy. We work with founders across Marketing, HR, Finance, and Operations to build stronger, scalable businesses — tell us a bit about you.</p>
+
+      <form class="welcome-modal__form" id="welcome-form" novalidate>
+        <div class="field">
+          <label for="welcome-name">Full Name<span class="req" aria-hidden="true">*</span></label>
+          <input id="welcome-name" name="name" type="text" placeholder="e.g. Rahul Sharma" required autocomplete="name" />
+          <span class="err">Please enter your name.</span>
+        </div>
+        <div class="row-2">
+          <div class="field">
+            <label for="welcome-contact">Contact No.<span class="req" aria-hidden="true">*</span></label>
+            <input id="welcome-contact" name="contact" type="tel" placeholder="+91 98765 43210" required autocomplete="tel" inputmode="tel" />
+            <span class="err">Please enter a contact number.</span>
+          </div>
+          <div class="field">
+            <label for="welcome-email">Email<span class="req" aria-hidden="true">*</span></label>
+            <input id="welcome-email" name="email" type="email" placeholder="you@company.com" required autocomplete="email" />
+            <span class="err">Please enter a valid email.</span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="welcome-reason">Reason for visiting</label>
+          <input id="welcome-reason" name="reason" type="text" placeholder="e.g. Exploring a fractional CMO engagement" />
+        </div>
+        <button type="submit" class="btn btn-primary welcome-modal__submit">Continue</button>
+        <p class="welcome-modal__foot">No spam. We respond within 48 hours.</p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js?v=5"></script>
+</body>
+</html>

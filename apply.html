@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Apply to Work With Us · ATDRATE</title>
+  <meta name="description" content="Tell us about your business. We review every application personally and respond within 48 hours if there's a strong fit." />
+  <meta name="theme-color" content="#0A1628" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=5" />
+</head>
+<body>
+
+  <!-- ============== HEADER ============== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="brand" aria-label="ATDRATE — home"><img src="Atdrate_blacklogo.png" alt="ATDRATE" /></a>
+        <ul class="nav-links">
+          <li><a href="index.html#approach">How We Help</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="insights.html">Insights</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="apply.html" class="btn btn-primary hide-sm">Apply Now</a>
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============== INTRO ============== -->
+  <section class="section section--tight">
+    <div class="container">
+      <h1>Let's understand your business.</h1>
+      <p class="lead">Fill in the details below. We review every application personally and respond within 48 hours if there's a strong fit. No automated responses. No sales pitch on the call — just an honest conversation about whether and how we can help.</p>
+    </div>
+  </section>
+
+  <!-- ============== APPLY SHELL ============== -->
+  <section class="section section--tight" style="padding-top:0;">
+    <div class="container">
+      <div class="apply-shell">
+
+        <!-- ===== Form ===== -->
+        <form class="form-card" id="apply-form" novalidate data-reveal>
+          <div class="row-2">
+            <div class="field">
+              <label for="full-name">Full Name</label>
+              <input id="full-name" name="full_name" type="text" placeholder="e.g. Rahul Sharma" required autocomplete="name" />
+              <span class="err">Please enter your full name.</span>
+            </div>
+            <div class="field">
+              <label for="company">Company / Brand Name</label>
+              <input id="company" name="company" type="text" placeholder="Company Ltd." required autocomplete="organization" />
+              <span class="err">Please enter your company name.</span>
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="website">Website URL</label>
+              <input id="website" name="website" type="url" placeholder="https://…" autocomplete="url" />
+              <span class="err">Please enter a valid URL.</span>
+            </div>
+            <div class="field">
+              <label for="industry">Industry / Business Type</label>
+              <select id="industry" name="industry" required>
+                <option value="" disabled selected>Select an option</option>
+                <option>D2C / E-commerce</option>
+                <option>SaaS / Technology</option>
+                <option>Fintech / Banking</option>
+                <option>Manufacturing</option>
+                <option>Services / Agency</option>
+                <option>Healthcare</option>
+                <option>Retail</option>
+                <option>Other</option>
+              </select>
+              <span class="err">Please select an industry.</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="revenue">Current Monthly Revenue</label>
+            <select id="revenue" name="revenue" required>
+              <option>Pre-revenue</option>
+              <option>₹0 – ₹10L / month</option>
+              <option>₹10L – ₹50L / month</option>
+              <option>₹50L – ₹2Cr / month</option>
+              <option>₹2Cr+ / month</option>
+            </select>
+          </div>
+
+          <fieldset class="field" id="pillars-field">
+            <legend class="legend">Pillars Interested In</legend>
+            <div class="checkgrid mt-8">
+              <label class="check"><input type="checkbox" name="pillars" value="marketing"> Marketing</label>
+              <label class="check"><input type="checkbox" name="pillars" value="hr"> Human Resource</label>
+              <label class="check"><input type="checkbox" name="pillars" value="financial"> Financial</label>
+              <label class="check"><input type="checkbox" name="pillars" value="operational"> Operational</label>
+              <label class="check"><input type="checkbox" name="pillars" value="audit"> Not sure — I need the Audit</label>
+            </div>
+            <span class="err">Please select at least one pillar.</span>
+          </fieldset>
+
+          <div class="field">
+            <label for="challenge">Biggest Challenge</label>
+            <textarea id="challenge" name="challenge" placeholder="Describe the single biggest obstacle holding you back today." required></textarea>
+            <span class="err">Please describe your biggest challenge.</span>
+          </div>
+
+          <div class="field">
+            <label for="success">Success in 12 Months</label>
+            <textarea id="success" name="success" placeholder="If we work together, what does a winning scenario look like for your business in 1 year?" required></textarea>
+            <span class="err">Please share what success looks like.</span>
+          </div>
+
+          <div class="field">
+            <label for="referral">How did you hear about us?</label>
+            <input id="referral" name="referral" type="text" placeholder="LinkedIn, Referral, Search, etc." />
+          </div>
+
+          <div class="form-foot">
+            <button type="submit" class="btn btn-primary" style="padding:14px 28px;">Submit My Application</button>
+            <p>No spam. No pressure. Just a real conversation.</p>
+          </div>
+        </form>
+
+        <!-- ===== Sidebar ===== -->
+        <aside>
+          <div class="aside-card aside-card--blue" data-reveal data-reveal-delay="1">
+            <p class="eyebrow" style="color:rgba(255,255,255,.85);">Current Availability</p>
+            <h3>Accepting applications for Q2 2026</h3>
+            <span class="pill">2 partnership slots remaining</span>
+          </div>
+
+          <div class="aside-card" data-reveal data-reveal-delay="2">
+            <p class="eyebrow eyebrow--muted">What happens after you apply</p>
+            <ol class="steps-list">
+              <li>
+                <span class="badge">01</span>
+                <div>
+                  <h4>Intellectual Review</h4>
+                  <p>We analyze your data and challenges to ensure we can provide significant ROI.</p>
+                </div>
+              </li>
+              <li>
+                <span class="badge">02</span>
+                <div>
+                  <h4>Qualification Call</h4>
+                  <p>A 20-minute discussion to vet alignment between our methodology and your goals.</p>
+                </div>
+              </li>
+              <li>
+                <span class="badge">03</span>
+                <div>
+                  <h4>Strategic Proposal</h4>
+                  <p>We outline exactly where the gaps are and how we propose to fill them.</p>
+                </div>
+              </li>
+              <li>
+                <span class="badge">04</span>
+                <div>
+                  <h4>The Decision</h4>
+                  <p>You decide if we move forward with a full audit or a long-term partnership.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="aside-card" data-reveal data-reveal-delay="3">
+            <p class="eyebrow eyebrow--muted">Technical Questions?</p>
+            <p>For immediate institutional inquiries or media requests.</p>
+            <p style="margin:0;"><a href="mailto:hello@atdrate.com"><strong>hello@atdrate.com</strong></a></p>
+          </div>
+
+          <div class="aside-img" role="img" aria-label="Atdrate boardroom" data-reveal data-reveal-delay="4"></div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="ATDRATE — home"><img src="Atdrate_blacklogo.png" alt="ATDRATE" /></a>
+          <p>Atdrate — Business Growth Consultancy · Mumbai, India.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="apply.html">Apply</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span data-year>2026</span> ATDRATE consultancy. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=5"></script>
+</body>
+</html>
