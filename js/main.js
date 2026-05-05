@@ -283,7 +283,7 @@
     try { alreadyShown = !!sessionStorage.getItem(STORAGE_KEY); } catch (e) {}
 
     if (!alreadyShown) {
-      openTimer = setTimeout(openWelcome, 2000);
+      openTimer = setTimeout(openWelcome, 5000);
     }
 
     // Close on backdrop click, X, or Esc
