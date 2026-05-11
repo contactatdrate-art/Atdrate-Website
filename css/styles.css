@@ -1301,3 +1301,6 @@ fieldset.field { border: 0; padding: 0; margin: 0 0 22px; }
   .article-body .lead { font-size: 1.08rem; }
   .article-hero-img > div { aspect-ratio: 16 / 10; }
 }
+/* Hero headline now uses h2 element for SEO (one H1 per page) but visually matches old h1 */
+.hero .hero-headline { font-size: clamp(2rem, 4.4vw, 3.25rem); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; color: #fff; max-width: 18ch; margin: 0 auto .4em; }
+.hero .hero-headline .accent { color: #6379FF; }
